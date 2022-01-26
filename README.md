@@ -1,12 +1,14 @@
 # Boris Bikes
 A program for the Transport for London modeling the Boris Bikes infrastructure including emulating all the docking stations, bikes, repair staff, etc..
 
-## Nouns
+## Domain Modelling
+
+### Nouns
 - Person
 - Bike
 - Docking station
 
-## Verbs
+### Verbs
 - Release
 - Working
 
@@ -16,17 +18,19 @@ A program for the Transport for London modeling the Boris Bikes infrastructure i
 | Bike           | working?     | 
 | DockingStation | release_bike |
 
-## Type of Error
+## Analyzing An Error
+
+### Type of Error:
 NameError: uninitialized constant DockingStation
 
-## file path where the error happened
+### File path:
 .rvm/rubies/ruby-2.2.2/bin/irb:11:in
 
-## line number of the error
+### Line number of the error:
 11
 
-## Use the Ruby Documentation to find out what the error means
+### What the error means:
 Raised when a given name is invalid or undefined.
 
-## Suggest one way of solving the error.
+### Suggest one way of solving the error.
 Create a Docking station class.
